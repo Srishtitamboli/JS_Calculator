@@ -1,0 +1,143 @@
+#bodytag{
+    background-color: lightgray;
+}
+
+.outerbody{
+    width: 40%;
+    height: 400px;
+    margin-top: 150px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px black;
+    background-color:whitesmoke;
+}
+
+#getnums{
+    width: 90%;
+    height:100px;
+    margin-top: 5px;
+    background-color:whitesmoke;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:10px 10px black;
+}
+#num1{
+    height: 25px;
+    margin-top: 40px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#num2{
+    height: 25px;
+   
+    border-radius: 10px 10px 10px 10px;
+}
+
+.getresult{
+    width:90%;
+    height:100px;
+    margin-top: 5px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:10px 10px black;
+
+}
+
+#result{
+    height: 25px;
+    margin-top: 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.operations{
+    margin-top: 70px;
+}
+
+.btn{
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  @media only screen and (max-width:800px){
+      .outerbody{
+          width:700px;
+      }
+      
+  }
+
+  @media only screen and (max-width:768px){
+    .outerbody{
+        width: 398px;
+        margin-top: 80px;
+    }
+    #num1{
+        height:20px;
+        margin-bottom: 5px;
+        margin-right: 50px;
+        margin-left: 50px;
+        justify-content: center;
+    }
+   
+    #num2{
+        height:20px;
+        margin-bottom: 3px;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+
+    #result{
+        height: 20px;
+        
+    }
+
+    #mod,#clr{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    body{
+        max-height: fit-content;
+    }
+    .outerbody{
+        width: 150px;
+        
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .outerbody{
+        width:320px;
+        margin-top: 40px;
+    }
+
+    #num1{
+        width:25px;
+        height: 15px;
+        margin-left:0%;
+        margin-right: 5px;
+    }
+    #num2{
+        width:25px;
+        height: 15px;
+        margin-left:0%;
+        margin-right: 5px;
+    
+    }
+    #result{
+        width:50px;
+        height:15px;
+    }
+    .operations{
+        justify-content: center;
+    }
+
+    #div,#mod,#clr{
+        margin-right: 5px;
+    }
+}

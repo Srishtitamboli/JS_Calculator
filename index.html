@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="bodytag">
+    <center>
+    <div class="outerbody">
+        <form name=cal>
+       <div id="getnums">
+            
+                <center>
+                <label for="num1">Number1 : </label>
+                <input type="text" id="num1"style="outline: none" name="num1" >
+
+                <label for="num2">Number2 : </label>
+                <input type="text" id="num2" style="outline: none" name="num2" >
+                <br/>
+            </center>
+        
+       </div>
+       <div class="getresult">
+           <center>
+              
+                <label for="result">Result : </label>
+                <input type="text" id="result"style="outline: none" name="result" >
+                <br/>
+              
+           </center>
+       </div>
+       <div class="operations">
+           <center>
+               
+         <button id="add" class="btn" style="margin-left: 15px;" onclick="event.preventDefault();addition()">ADD</button>
+         <button id="mul" class="btn"onclick="event.preventDefault();multiplication()">MUL</button>
+         <button id="sub" class="btn"onclick="event.preventDefault();subtraction()">SUB</button>
+         <button id="div" class="btn"onclick="event.preventDefault();division()">DIV</button>
+         <button id="mod" class="btn"onclick="event.preventDefault();modulas()">MOD</button>
+         <button id="clr" class="btn"onclick="event.preventDefault();clarity()">CLEAR</button>
+         <br/>
+        
+        </center>
+       </div>
+    </form>
+    </div>
+</center>
+<script src="index.js"></script>
+</body>
+</html>
